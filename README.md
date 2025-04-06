@@ -62,4 +62,11 @@ npm run preview
 
 ## Deployment
 
-The site can be deployed as a static site or server-rendered application. See the [Nuxt deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+The site is automatically deployed to GitHub Pages when changes are pushed to the main branch. The GitHub Actions workflow in `.github/workflows/deploy.yml` handles:
+
+1. Building the site with `npm run generate`
+2. Deploying the static files to GitHub Pages
+
+A preview version is available at: https://mvdbeek.github.io/altijdpoesjes/
+
+For other deployment options, see the [Nuxt deployment documentation](https://nuxt.com/docs/getting-started/deployment).

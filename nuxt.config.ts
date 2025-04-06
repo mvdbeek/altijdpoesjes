@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     }
   },
   app: {
+    baseURL: '/altijdpoesjes/',
     head: {
       title: 'altijdpoesjes - Handmade Art',
       meta: [
